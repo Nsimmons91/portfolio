@@ -19,13 +19,26 @@ font-family: "times new roman"
 font-style: Bold ; 
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+
 .left{
     width: 600px;
     margin-left: 20px;
 }
 .description { 
     width: 600px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 h4 {
