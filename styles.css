@@ -1,34 +1,84 @@
 body {
 background-color: floralwhite;
 }
+
 form {
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex: 1;
+
+    }
+
+    h2 {
+        margin-top: 100px;
+        color: black;
+        font-family: "times new roman"
+        font-style: Bold ;  
+        font-size: 35px;
+    }
+
+form label {
+    color: rgb(170, 27, 195);
+    font-family: "times new roman"
+    font-style: Bold ; 
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 800px;
+    max-height: 100x;
 }
+
+form input [type="name"],
+form input [type="email"],
+form input [type="phone"],
+form input [type="address"] {
+    width: 100%;
+    padding: 1px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+}
+
+
 .profile-photo {
-    border: 5px solid #b11b1b;
+    border: 5px solid #dec8e6;
     border-radius: 0;
     float: left;
-    margin-right: 20px;
-    
+    margin: 20px;    
 }
 
 h1 {
 color: black;
 font-family: "times new roman"
 font-style: Bold ; 
+margin:20px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
 .column {
     flex: 1;
-    padding: 20px;
+    max-width: 1200px;
+    padding:10px;
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio {
+    font-style: italic;
 }
 
 
@@ -36,9 +86,11 @@ font-style: Bold ;
     width: 600px;
     margin-left: 20px;
 }
+
 .description { 
-    width: 600px;
-    margin-left: 40px;
+    width: 400px;
+    margin-right: 10px;
+    text-align: center;
 }
 
 h4 {
