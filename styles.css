@@ -14,14 +14,14 @@ form {
 
     h2 {
         margin-top: 100px;
-        color: rgb(179, 55, 55);
+        color: black ;
         font-family: "times new roman"
         font-style: Bold ;  
         font-size: 35px;
     }
 
 form label {
-    color: rgb(170, 27, 195);
+    color: rgb(233, 171, 242);
     font-family: "times new roman"
     font-style: Bold ; 
     font-size: 20px;
@@ -41,7 +41,7 @@ form input [type="address"] {
     padding: 1px;
     margin-top: 70px;
     margin-bottom: 15px;
-    border: 5px solid #ccc;
+    border: 5px solid #dec8e6;
     border-radius: 4px;
 }
 
@@ -71,7 +71,7 @@ margin:20px;
     max-width: 1200px;
     padding:10px;
     margin: 10px;
-    border: 10px solid #ccc;
+    border: 10px solid #dec8e6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,7 @@ margin:20px;
 }
 
 h4 {
-    color:darkslategrey;
+    color: black;
     font-family: "sans-serif";
     font-style: italic; 
     margin-top: 50px;
