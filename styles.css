@@ -15,14 +15,14 @@ form {
     h2 {
         margin-top: 100px;
         color: black;
-        font-family: "times new roman"
+        font-family: "times new roman";
         font-style: Bold ;  
         font-size: 35px;
     }
 
 form label {
     color: rgb(170, 27, 195);
-    font-family: "times new roman"
+    font-family: "times new roman";
     font-style: Bold ; 
     font-size: 20px;
     display: block;
@@ -55,7 +55,7 @@ form input [type="address"] {
 
 h1 {
 color: black;
-font-family: "times new roman"
+font-family: "times new roman";
 font-style: Bold ; 
 margin:20px;
 }
