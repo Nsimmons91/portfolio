@@ -148,6 +148,7 @@ button:hover {
     border-radius: 0;
     float: left;
     margin: 20px;  
+    text-align: center;
 }
 
 h1 {
