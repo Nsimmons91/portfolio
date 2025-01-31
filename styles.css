@@ -80,12 +80,25 @@ form input [type="address"] {
     border-radius: 4px;
 }
 
+button {
+    background-color:#d0a2f1 ;
+    color: ;
+    padding: 10px ;
+    border-radius: 4px ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7f0fa;
+}
+
 
 .profile-photo {
     border: 5px solid #dec8e6;
     border-radius: 0;
     float: left;
-    margin: 20px;    
+    margin: 20px;  
 }
 
 h1 {
