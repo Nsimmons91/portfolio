@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+   
+</head>
 
-    <body>
-        <!-- I would suggest maybe moving some of this stuff outside of your header and into your body instead. -->
-        <header>
-            <div class="container">
-    
-            <img src="https://d14tal8bchn59o.cloudfront.net/gng3AAhZ1yZNXV8pJEvJCVGqDBb6nI9HmEU_JA23mN4/w:960/plain/https://02f0a56ef46d93f03c90-22ac5f107621879d5667e0d7ed595bdb.ssl.cf2.rackcdn.com/sites/29524/photos/20485299/IMG_6357_original.jpeg" alt="Profile Photo"  width="" height="400px" class="profile-photo">
-            </div>
+<body>
+    <!-- I would suggest maybe moving some of this stuff outside of your header and into your body instead. -->
+    <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/ninasimmons-swe?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Home</a></li>
+            <li><a href="https://www.tehyaudididoula.com/bio" target="_blank">About Me</a></li>
+            <li><a href="https://www.instagram.com/preciousbabydoula?igsh=amxkOXFhaWtwOXc4&utm_source=qr" target="_blank">Portfolio</a></li>
+            <li><a href="https://www.tehyaudididoula.com/baby-care-manual" target="_blank">Services</a></li>
+
+          </ul>  
+      </nav>
+
+    <header>
+    <div class="container">
+ 
+    <img src="https://d14tal8bchn59o.cloudfront.net/gng3AAhZ1yZNXV8pJEvJCVGqDBb6nI9HmEU_JA23mN4/w:960/plain/https://02f0a56ef46d93f03c90-22ac5f107621879d5667e0d7ed595bdb.ssl.cf2.rackcdn.com/sites/29524/photos/20485299/IMG_6357_original.jpeg" alt="Profile Photo"  width="" height="400px" class="profile-photo">
+  </div>
 
             <h1><strong>Nina Rochelle Simmons</strong></h1>
 
@@ -68,23 +79,27 @@
                     </ol>
                 </div>
 
-                <div class="column" id="contact-form">
-                    <h2>Contact Me</h2>
-                    <form>
-                    <label for="name">Name</label>
-                    <input type="name" id="name" name="name" required>
+
+        <div class="column" id="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+            <label for="name">Name</label>
+            <input type="name" id="name" name="name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone number">Phone Number</label>
+            <input type="phone" id="phone" name="phone">
+    
+            <label for="address">Address</label>
+            <input type="address" id="address" name="address">
             
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-            
-                    <label for="phone number">Phone Number</label>
-                    <input type="phone" id="phone" name="phone">
-            
-                    <label for="address">Address</label>
-                    <input type="address" id="address" name="address">
-                    </form>
-                </div> 
+            <button type="submit">Submit</button>
+            </form>
+            </div> 
             </div>
         </header>
     </body>
+     
 </html>
