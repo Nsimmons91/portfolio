@@ -28,8 +28,6 @@ background-color: floralwhite;
         text-decoration: none;
         color: black; 
         padding: 15px;
-        transition: background-color 0.3s; /* Smooth transition for background color */
-        padding: 10px;
         font-size: 25px;
       }
       
@@ -116,21 +114,28 @@ form label {
     max-height: 100x;
 }
 
-form input [type="name"],
-form input [type="email"],
-form input [type="phone"],
-form input [type="address"] {
+form input [type="name"];,
+form input [type="email"];,
+form input [type="phone"];,
+form input [type="address"]; {
     width: 100%;
-    padding: 1px;
+    padding: 10px;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 5px solid #dec8e6;
     border-radius: 4px;
+}
+.override {
+    color: blue; /* overide class and base style*/
+}
+
+.override.override {
+    color: red /* overriding style */
 }
 
 button {
     background-color:#d0a2f1 ;
-    color: ;
+    color: whitesmoke;
     padding: 10px ;
     border-radius: 4px ;
     margin:;
@@ -161,12 +166,12 @@ margin:20px;
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 20px ;
 }
 
 .column {
     flex: 1;
-    max-width: 1200px;
+    max-width: 600px;
     padding:10px;
     margin: 10px;
     border: 10px solid #dec8e6;
