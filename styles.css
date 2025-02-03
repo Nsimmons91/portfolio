@@ -148,7 +148,7 @@ form input [type="address"]; {
 
 button {
     background-color:#d0a2f1 ;
-    color: whitesmoke;
+    color: rgb(105, 7, 157);
     padding: 10px ;
     border-radius: 4px ;
     cursor: pointer;
