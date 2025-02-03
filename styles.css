@@ -1,10 +1,8 @@
 body {
-background-color: floralwhite;
+background-color: hsl(40, 100%, 97%);
 
 }
-#grad {
-    background-image: linear-gradient(rgb(225, 181, 244), rgb(175, 135, 246));
-  }
+
 
 .navbar {
     background-color: rgb(230, 187, 246); 
@@ -108,27 +106,15 @@ h2 {
 
 form {
     margin-top: 20px;
+    margin: 20px;
     flex-direction: column;
     align-items: center;
     display: flex;
     flex: 1;
-<<<<<<< HEAD
 }
-=======
-
-    }
-
-    h2 {
-        margin-top: 100px;
-        color: black ;
-        font-family: "times new roman";
-        font-style: Bold ;  
-        font-size: 35px;
-    }
->>>>>>> 01b21c11ca28b44dc09cd186d9d40c1cd385d9c1
 
 form label {
-    color: rgb(233, 171, 242);
+    color: #852394;
     font-family: "times new roman";
     font-style: Bold ; 
     font-size: 20px;
@@ -165,7 +151,6 @@ button {
     color: whitesmoke;
     padding: 10px ;
     border-radius: 4px ;
-    margin:;
     cursor: pointer;
 
 }
@@ -181,26 +166,20 @@ button:hover {
 .profile-photo {
     border: 5px solid #dec8e6;
     border-radius: 0;
-    margin-right: auto; 
-    margin: auto 55px; 
+    margin-right: 900px; 
+    margin: 50px; 
     object-fit: cover;
     margin-top: px;
+    max-width: 700px;
 }
 
 h1 {
-<<<<<<< HEAD
     color: black;
     font-family: "times new roman";
     font-style: Bold ; 
     margin:20px;
     font-size: 35px;
 
-=======
-color: black;
-font-family: "times new roman";
-font-style: Bold ; 
-margin:20px;
->>>>>>> 01b21c11ca28b44dc09cd186d9d40c1cd385d9c1
 }
 
 .container {
@@ -214,7 +193,7 @@ margin:20px;
     flex: 1;
     max-width: 600px;
     padding:10px;
-    margin: 10px;
+    margin: 20px;
     border: 10px solid #dec8e6;
     display: flex;
     flex-direction: column;
@@ -234,6 +213,7 @@ h4 {
 .bio-section {
     font-style: italic;
     margin: 10px ;
+    text-align: center;
 }
 
 .description { 
