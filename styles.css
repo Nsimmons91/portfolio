@@ -112,7 +112,20 @@ form {
     align-items: center;
     display: flex;
     flex: 1;
+<<<<<<< HEAD
 }
+=======
+
+    }
+
+    h2 {
+        margin-top: 100px;
+        color: black ;
+        font-family: "times new roman";
+        font-style: Bold ;  
+        font-size: 35px;
+    }
+>>>>>>> 01b21c11ca28b44dc09cd186d9d40c1cd385d9c1
 
 form label {
     color: rgb(233, 171, 242);
@@ -175,12 +188,19 @@ button:hover {
 }
 
 h1 {
+<<<<<<< HEAD
     color: black;
     font-family: "times new roman";
     font-style: Bold ; 
     margin:20px;
     font-size: 35px;
 
+=======
+color: black;
+font-family: "times new roman";
+font-style: Bold ; 
+margin:20px;
+>>>>>>> 01b21c11ca28b44dc09cd186d9d40c1cd385d9c1
 }
 
 .container {
