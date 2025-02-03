@@ -1,6 +1,11 @@
 body {
 background-color: floralwhite;
+
 }
+#grad {
+    background-image: linear-gradient(rgb(225, 181, 244), rgb(175, 135, 246));
+  }
+
 .navbar {
     background-color: rgb(230, 187, 246); 
     border-bottom: 1px solid #b26ddd; 
@@ -33,9 +38,9 @@ background-color: floralwhite;
       .navbar input[type="text"] {
         padding: 5px;
         font-size: 16px;
-        margin-left: 20px; /* space between links and search bar*/
-        border: 2px solid #dec8e6
-        border-radius: 4px
+        margin-left: 10px; /* space between links and search bar*/
+        border: 2px solid #dec8e6;
+        border-radius: 4px;
       }
       
       .navbar a:hover {
@@ -76,41 +81,42 @@ background-color: floralwhite;
     
     
     /* Wide screens (900px and above) */
-    @media (min-width: 900px) {
-        header h1 {
-            font-size: 36px; /* Larger header font size */
-        }
-
-        button {
-            padding: 15px 25px; /* Larger button */
-            font-size: 18px; /* Larger button font size */
-        }
-
-        .profile-image {
-            width: 50%; /* Larger profile image */
-        }
+@media (min-width: 900px) {
+    header h1 {
+        font-size: 36px; /* Larger header font size */
     }
+
+    button {
+        padding: 15px 25px; /* Larger button */
+        font-size: 18px; /* Larger button font size */
+    }
+
+    .profile-image {
+        width: 50%; /* Larger profile image */
+    }
+}
     
+
+
+h2 {
+    margin-top: 10px;
+    color: black ;
+    font-family: "times new roman";
+    font-style: Bold ;  
+    font-size: 30px;
+}
+
 form {
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
     display: flex;
     flex: 1;
-
-    }
-
-    h2 {
-        margin-top: 100px;
-        color: black ;
-        font-family: "times new roman"
-        font-style: Bold ;  
-        font-size: 35px;
-    }
+}
 
 form label {
     color: rgb(233, 171, 242);
-    font-family: "times new roman"
+    font-family: "times new roman";
     font-style: Bold ; 
     font-size: 20px;
     display: block;
@@ -132,12 +138,13 @@ form input [type="address"]; {
     border: 5px solid #dec8e6;
     border-radius: 4px;
 }
+
 .override {
-    color: blue; /* overide class and base style*/
+    color: rgb(169, 141, 226); /* overide class and base style*/
 }
 
 .override.override {
-    color: red /* overriding style */
+    color: rgb(84, 7, 146); /* overriding style */
 }
 
 button {
@@ -154,26 +161,33 @@ button:hover {
     background-color: #f7f0fa;
 }
 
+.image-container {
+    margin-top: 100px;
+}
 
 .profile-photo {
     border: 5px solid #dec8e6;
     border-radius: 0;
-    float: left;
-    margin: 20px;  
-    text-align: center;
+    margin-right: auto; 
+    margin: auto 55px; 
+    object-fit: cover;
+    margin-top: px;
 }
 
 h1 {
-color: black;
-font-family: "times new roman"
-font-style: Bold ; 
-margin:20px;
+    color: black;
+    font-family: "times new roman";
+    font-style: Bold ; 
+    margin:20px;
+    font-size: 35px;
+
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     margin: 20px ;
+    
 }
 
 .column {
@@ -187,25 +201,31 @@ margin:20px;
     align-items: center;
 }
 
-.bio {
-    font-style: italic;
+
+
+h4 {
+    color: black;
+    font-family: "sans-serif";
+    font-style: italic; 
+    margin-top: 20px;
+    text-align: center;
 }
 
+.bio-section {
+    font-style: italic;
+    margin: 10px ;
+}
+
+.description { 
+    width: 400px;
+    text-align: center;
+}
 
 .left{
     width: 600px;
     margin-left: 20px;
 }
 
-.description { 
-    width: 400px;
-    margin-right: 10px;
-    text-align: center;
-}
 
-h4 {
-    color: black;
-    font-family: "sans-serif";
-    font-style: italic; 
-    margin-top: 50px;
-}
+
+

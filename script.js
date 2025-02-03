@@ -1,19 +1,15 @@
-<Script>
 
-    function jumpToSection() {
-        //Grab the element from the seach bar
-        const input = document.getElementById("search").value.toLowerCase();
+<script>
+   function jumpToSection() {
+       const input = document.getElementById("search").value.toLowerCase();
 
-        // Check if input matches any ids
-        if (input === "bio") {
-            window.location.hash = "bio";
+       if (input === "bio") {
+           window.location.hash = "bio";
+       } else if (input === "contact") {
+           window.location.hash = "contact-form";
+       } else {
+           alert("No match found. Please type 'bio' or 'contact'."); // Added feedback for no match
+       }
+   }
+</script>
 
-        } else if (input === "contact") { 
-            window.location.hash = "contact-form"
-
-        } else {
-            //if no match return, no match found
-            console.log("No match found.")
-        }
-    }
-</Script>
