@@ -1,5 +1,4 @@
 
-<script>
    function jumpToSection() {
        const input = document.getElementById("search").value.toLowerCase();
 
@@ -11,5 +10,5 @@
            alert("No match found. Please type 'bio' or 'contact'."); // Added feedback for no match
        }
    }
-</script>
+
 
